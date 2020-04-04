@@ -1,0 +1,20 @@
+{
+  "orm": {
+    "database": "testDB",
+    "username": "root",
+    "password": "199112",
+    "options": {
+      "dialect": "mysql"
+    },
+    "models": "models"
+  },
+  "ssh": {
+    "useSsh": false,
+    "cert": "path to cert",
+    "key": "path to key"
+  },
+  "port": 8080,
+  "authPath": "https://site.com/check-auth.php",
+  "messageLength": 10,
+  "minMessageLength": 1
+}
